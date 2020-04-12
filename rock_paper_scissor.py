@@ -47,7 +47,7 @@ while(i!=n):
     user_choice=int(input("User turn:-\t"))
 
     while (user_choice > 3) or (user_choice < 1):
-        choice = int(input("enter valid input:-\t "))
+        user_choice = int(input("enter valid input:-\t "))
 
     comp_choice=random.randint(1,3)
 
